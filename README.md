@@ -10,15 +10,15 @@ Then, run `npx checky test --record` to run this Browser check as a test session
 
 ## File structure
 
-### REFERENCE_simple-browser-extension
+### `/REFERENCE_simple-browser-extension`
 
 The Browser extension I'm running in my test, for reference. It displays a green banner at the top of each page that says "Hello, this is a browser extension!"
 
-### /tests/example.spec.ts
+### `/tests/example.spec.ts`
 
 Contains the Playwright spec file for our Browser check. 
 
-### /tests/fixtures.ts
+### `/tests/fixtures.ts`
 
 Sets up out browser extension to be used in `example.spec.ts`. This is an example pulled from https://playwright.dev/docs/chrome-extensions and has been modified to work for Checkly. For more details, please refer to that Playwright documentation page.
 
