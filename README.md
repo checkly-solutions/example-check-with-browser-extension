@@ -31,3 +31,7 @@ Sets up out browser extension to be used in `example.spec.ts`. This is an exampl
 * This is a simple example. I have not validated how well this works as a deployed monitor or with more complex examples.
 * This may not work if your browser extension is too large. This example converts the browser extension source code into base64 strings. Checkly has file size limits, which you'll hit if your browser extension source code is too large. 
   * You might be able to work around this by [hosting your extension in a public location](https://www.checklyhq.com/docs/detect/synthetic-monitoring/multistep-checks/file-system/#testing-uploads-using-http-post-requests), and retrieving it in your test script.
+
+## A note on Playwright Check Suites
+
+Generally, [Playwright Check Suites](https://www.checklyhq.com/docs/detect/synthetic-monitoring/playwright-checks/overview/) are more powerful than Browser checks since they have native Playwright compatibility. However in this case, the PWT Check Suite crashes with a permissions error when calling `launchPersistentContext`.
