@@ -8,6 +8,9 @@ First, install packages: `npm install`
 
 Then, run `npx checky test --record` to run this Browser check as a test session.
 
+The test session should have a trace that looks like this:
+<img width="3032" height="1610" alt="CleanShot 2025-10-03 at 16 15 38@2x" src="https://github.com/user-attachments/assets/6406ab45-d861-4378-a66d-246ed45ed091" />
+
 ## File structure
 
 ### `/REFERENCE_simple-browser-extension`
